@@ -11,8 +11,11 @@ let input = document.querySelector('input');
 plus.addEventListener('click', add);
 minus.addEventListener('click', subtract);
 
+
+/*----- Functions -----*/
 function render(){
-    result.innerText = num;
+    console.log(num);
+    if (!isNaN(num)) result.innerText = num;
 }
 
 function add(a,b) {
