@@ -32,3 +32,12 @@ input[type="text"] {
     width: 59px;
     margin: 4px 10px;
 }
+button:hover {
+    background: white;
+    color: black;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 4px 14px;
+    cursor: pointer;
+    margin: 4px 10px;
+}
