@@ -1,0 +1,34 @@
+body{
+  margin: 33% 29%;
+  /* text-align: center; */
+  display: table;
+}
+.content{
+  min-width: 500px;
+  margin-left: 33%;
+}
+span{
+      min-width: 500px;
+      margin: 54%;
+      width: 100%;
+      font-size: x-large;
+}
+button {
+    background: black;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+    padding: 4px 14px;
+    cursor: pointer;
+    margin: 4px 10px;
+}
+
+input[type="text"] {
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 4px 14px;
+    cursor: pointer;
+    text-align: center;
+    width: 59px;
+    margin: 4px 10px;
+}
